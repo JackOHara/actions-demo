@@ -1,0 +1,18 @@
+version: '2.4'
+
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    init: true # https://github.com/krallin/tini
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    env_file:
+      - .env
+    volumes:
+      - .:/usr/src/app:delegated
+      - /usr/src/app/node_modules # empty bind mount

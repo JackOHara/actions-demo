@@ -1,0 +1,44 @@
+{
+  "name": "actions-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "echo \"running lint...\"",
+    "lint:commit": "commitlint --from HEAD~1 --verbose",
+    "test": "echo \"running tests...\""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "conventional-changelog-eslint": "^3.0.8",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.3"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test",
+      "commit-msg": "commitlint --verbose -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JackOHara/actions-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
