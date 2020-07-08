@@ -13,7 +13,10 @@
                 }
             ],
             "essential": true,
-            "environment": [],
+            "environment": [
+                "name" : "PORT",
+                "value" : "80"
+            ],
             "mountPoints": [],
             "volumesFrom": [],
             "logConfiguration": {
