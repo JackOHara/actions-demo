@@ -32,4 +32,3 @@ Nodemon will restart the application on each save. Port 9229 has been exposed to
 If hooks are not running run `npm rebuild`. Commit messages following [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 * `git commit`
-
