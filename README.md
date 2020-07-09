@@ -1,5 +1,6 @@
 # Actions Demo
-https://github.com/JackOHara/actions-demo/workflows/Deploy%20to%20Amazon%20ECS/badge.svg
+https://github.com/JackOHara/actions-demo/workflows/Fargate%20CD/badge.svg
+https://github.com/JackOHara/actions-demo/workflows/CI/badge.svg
 ## Environment
 
 Create a `.env` file in the root of the project
