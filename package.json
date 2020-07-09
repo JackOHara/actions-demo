@@ -18,6 +18,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "conventional-changelog-eslint": "^3.0.8",
+    "eslint": "^7.4.0",
     "husky": "^4.2.5",
     "nodemon": "^2.0.3"
   },
