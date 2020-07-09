@@ -32,7 +32,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm ci && \
     npm cache clean --force
-COPY ./src ./
+COPY . .
 CMD [ "npm", "run", "test" ]
 
 ### Production ###
@@ -49,4 +49,4 @@ RUN chown -R node:node .
 USER node
 RUN npm ci --production && \
     npm cache clean --force
-CMD [ "node", "app.js" ]
+CMD [ "node", "src/app.js" ]
