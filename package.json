@@ -8,10 +8,11 @@
     "start": "nodemon app.js",
     "lint": "echo \"running lint...\"",
     "lint:commit": "commitlint --from HEAD~1 --verbose",
-    "test": "echo \"running tests...\""
+    "test": "mocha"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^8.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
