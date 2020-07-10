@@ -1,5 +1,6 @@
 # Actions Demo
 https://github.com/JackOHara/actions-demo/workflows/Fargate%20CD/badge.svg
+
 https://github.com/JackOHara/actions-demo/workflows/CI/badge.svg
 ## Environment
 
