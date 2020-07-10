@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/JackOHara/actions-demo/compare/v1.2.0...v1.3.0) (2020-07-10)
+
+
+### Features
+
+* hello ([fe9fdcd](https://github.com/JackOHara/actions-demo/commit/fe9fdcd6b8e949d896ab77ae47a262777d436752))
+* update readme ([1e00e82](https://github.com/JackOHara/actions-demo/commit/1e00e820ebb66f5ed9781d2e642f2e31a0016229))
+
 # [1.2.0](https://github.com/JackOHara/actions-demo/compare/v1.1.0...v1.2.0) (2020-07-10)
 
 
