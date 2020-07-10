@@ -1,0 +1,15 @@
+name: End to End Tests
+
+on:
+
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+
+  e2e:
+    name: End to end test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run e2e tests
+        run: npm run test
