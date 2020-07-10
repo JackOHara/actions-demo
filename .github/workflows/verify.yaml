@@ -1,0 +1,45 @@
+name: Verify
+
+on:
+
+  pull_request:
+    branches:
+      - master
+
+jobs:
+
+  lint:
+    name: Lint code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Linting code
+        run: npm run lint
+
+  lint_commit:
+    name: Lint commit message
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install development tools
+        run: npm install
+      - name: Lint commit messages
+        run: npm run lint:commit
+
+  test:
+    name: Test
+    needs: lint_commit
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run test
