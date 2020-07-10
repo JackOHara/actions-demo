@@ -12,6 +12,8 @@ jobs:
     name: Lint code
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Linting code
         run: npm run lint
 
@@ -21,8 +23,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
       - name: Install development tools
         run: npm install
       - name: Lint commit messages
