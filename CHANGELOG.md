@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JackOHara/actions-demo/compare/v1.0.0...v1.1.0) (2020-07-10)
+
+
+### Features
+
+* new demo route ([435d695](https://github.com/JackOHara/actions-demo/commit/435d6956aad27ec45becbdbdc1a582e3b344f42c))
+
 # 1.0.0 (2020-07-10)
 
 
