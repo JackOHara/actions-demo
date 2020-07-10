@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon src/app.js",
     "lint": "eslint src test",
-    "lint:commit": "commitlint --from HEAD~1 --to HEAD --verbose",
+    "lint:commit": "commitlint --from HEAD~1 --verbose",
     "test": "mocha"
   },
   "dependencies": {
