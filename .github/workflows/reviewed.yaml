@@ -1,0 +1,23 @@
+name: Pull Request - Approved
+
+on:
+
+  pull_request_review:
+    branches:
+      - master
+    types: [submitted]
+
+jobs:
+
+  kudos:
+    name: Send Kudos
+    runs-on: ubuntu-latest
+    if: github.event.review.state == 'approved'
+
+    steps:
+      - name: Kudos to approver
+        uses: steviebiddles/kudos-action@v1
+        with:
+          seconds: 300
+          token: ${{ secrets.GITHUB_TOKEN }}
+
