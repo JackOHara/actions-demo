@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/JackOHara/actions-demo/compare/v1.3.0...v1.4.0) (2020-07-12)
+
+
+### Features
+
+* remove hello route ([33d9a70](https://github.com/JackOHara/actions-demo/commit/33d9a70d9a9cc2411b58661f6af43fa2fba4a2ae))
+
 # [1.3.0](https://github.com/JackOHara/actions-demo/compare/v1.2.0...v1.3.0) (2020-07-10)
 
 
