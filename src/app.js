@@ -9,10 +9,4 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/hello', (req, res) => {
-  res.send({
-    message: 'Hello!',
-  });
-});
-
 app.listen(port, () => console.log(`listening on port ${port}!`));
