@@ -9,4 +9,10 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/review', (req, res) => {
+  res.send({
+    message: 'need a review',
+  });
+});
+
 app.listen(port, () => console.log(`listening on port ${port}!`));
