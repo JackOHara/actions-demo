@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/JackOHara/actions-demo/compare/v1.4.0...v1.5.0) (2020-07-12)
+
+
+### Features
+
+* address pr comments ([a854ed5](https://github.com/JackOHara/actions-demo/commit/a854ed50929f75564465fd5a876bdb3a551d665f))
+* need a review ([07fee90](https://github.com/JackOHara/actions-demo/commit/07fee908f15d2381c8ceb57e58892f1020fc2eb7))
+
 # [1.4.0](https://github.com/JackOHara/actions-demo/compare/v1.3.0...v1.4.0) (2020-07-12)
 
 
