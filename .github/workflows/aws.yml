@@ -4,9 +4,7 @@
 on:
   release:
     types: [published]
-  pull_request:
-    branches:
-      - master
+
 name: Deployment
 
 jobs:
