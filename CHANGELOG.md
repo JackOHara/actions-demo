@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/JackOHara/actions-demo/compare/v1.5.0...v1.6.0) (2020-07-14)
+
+
+### Features
+
+* only deploy on release ([3bb2653](https://github.com/JackOHara/actions-demo/commit/3bb2653fe0f7288cdb3c5f92e3bfe465be700207))
+* use version for image builds and deploys ([8ae7ed9](https://github.com/JackOHara/actions-demo/commit/8ae7ed95b88e1769fc94b5f0294f54617b00b8f8))
+
 # [1.5.0](https://github.com/JackOHara/actions-demo/compare/v1.4.0...v1.5.0) (2020-07-12)
 
 
