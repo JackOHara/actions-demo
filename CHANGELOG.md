@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/JackOHara/actions-demo/compare/v1.8.0...v1.9.0) (2020-07-14)
+
+
+### Features
+
+* create demo route ([b1bdda4](https://github.com/JackOHara/actions-demo/commit/b1bdda4202e83fb096c3c81f557438f2c86bb366))
+
 # [1.8.0](https://github.com/JackOHara/actions-demo/compare/v1.7.0...v1.8.0) (2020-07-14)
 
 
