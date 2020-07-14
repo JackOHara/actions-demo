@@ -1,7 +1,7 @@
 # Actions Demo
-https://github.com/JackOHara/actions-demo/workflows/Fargate%20CD/badge.svg
+![](https://github.com/JackOHara/actions-demo/workflows/End%20to%20End%20Tests/badge.svg)
+![](https://github.com/JackOHara/actions-demo/workflows/Deployment/badge.svg)
 
-https://github.com/JackOHara/actions-demo/workflows/CI/badge.svg
 ## Environment
 
 Create a `.env` file in the root of the project
