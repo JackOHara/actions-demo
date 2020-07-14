@@ -34,3 +34,10 @@ Nodemon will restart the application on each save. Port 9229 has been exposed to
 If hooks are not running run `npm rebuild`. Commit messages following [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 * `git commit`
+
+
+## Try Actions yourself
+[GitHub Actions documentation](https://docs.github.com/en/actions)
+[Explore Actions available in the Marketplace](https://github.com/marketplace?type=actions)
+[Set up a Fargate deployment action](https://aws.amazon.com/blogs/opensource/github-actions-aws-fargate/)
+
