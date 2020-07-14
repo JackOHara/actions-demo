@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Kudos to approver
-        uses: steviebiddles/kudos-action@v1
+        uses: steviebiddles/kudos-action@v1-alpha
         with:
           seconds: 300
           token: ${{ secrets.GITHUB_TOKEN }}
