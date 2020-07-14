@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/JackOHara/actions-demo/compare/v1.6.0...v1.7.0) (2020-07-14)
+
+
+### Features
+
+* cleanup ([9077923](https://github.com/JackOHara/actions-demo/commit/90779235ea2d6b9c1661af502a3c487559591a38))
+
 # [1.6.0](https://github.com/JackOHara/actions-demo/compare/v1.5.0...v1.6.0) (2020-07-14)
 
 
