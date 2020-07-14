@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/JackOHara/actions-demo/compare/v1.7.0...v1.8.0) (2020-07-14)
+
+
+### Features
+
+* tidy up ([90025de](https://github.com/JackOHara/actions-demo/commit/90025de8f8e65a20114d4be96af40856f215a4b4))
+
 # [1.7.0](https://github.com/JackOHara/actions-demo/compare/v1.6.0...v1.7.0) (2020-07-14)
 
 
